@@ -1,0 +1,22 @@
+{
+	"name": "hh_cltx",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"compile": "hardhat compile",
+		"deploy-dev": "hardhat run scripts/deploy.ts",
+		"deploy-test": "hardhat run scripts/deploy.ts --network",
+		"test": "hardhat test",
+		"verify": "hardhat verify --network"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^4.0.0",
+		"@nomicfoundation/hardhat-verify": "^2.0.4",
+		"@openzeppelin/contracts": "^5.0.2",
+		"dotenv": "^16.4.5",
+		"hardhat": "^2.21.0"
+	}
+}
